@@ -8,13 +8,15 @@ import React, { Component } from "react";
 
 import { Row, Column } from "modules/Layout";
 
+import { wem, wem2 } from "ruucm-blocks/tools/mixins";
+import { isMobile } from "ruucm-blocks/tools/media";
+
 class HomePage extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
   render() {
     return (
       <div>
-
         <div style={{ paddingTop: "65px", paddingBottom: "65px" }}>
           <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>
             <Row>
@@ -137,10 +139,9 @@ class HomePage extends Component {
                 style={{
                   paddingLeft: "15px",
                   paddingRight: "15px",
-                  marginBottom: "30px",
-                  top: "-40%",
-                  position: "absolute"
+                  marginBottom: "30px"
                 }}
+                className="home-col"
               >
                 <img
                   src="http://www.jessievan.com/images/grid-projects/IOT-Window@2x.png"
@@ -177,13 +178,65 @@ class HomePage extends Component {
                     lineHeight: "1.55em"
                   }}
                 >
-                  <span>Jessie Van</span><span>Product Designer</span>
+                  <p>
+                    <span>Jessie Van</span>
+                  </p>
+                  <p>
+                    <span>Product Designer</span>
+                  </p>
+                </div>
+              </Column>
+              <Column col={3} mCol={12}>
+                <div
+                  style={{
+                    paddingRight: "15px",
+                    paddingLeft: "15px",
+                    lineHeight: "1.55em"
+                  }}
+                >
+                  <p>
+                    <span>Oakland, California</span>
+                  </p>
+                  <p>
+                    <span>94609</span>
+                  </p>
+                </div>
+              </Column>
+              <Column col={3} mCol={12}>
+                <div
+                  style={{
+                    paddingRight: "15px",
+                    paddingLeft: "15px",
+                    lineHeight: "1.55em"
+                  }}
+                >
+                  <p>
+                    <span>415 425 7633</span>
+                  </p>
+                  <p>
+                    <span>jessievan@me.com</span>
+                  </p>
+                </div>
+              </Column>
+              <Column col={3} mCol={12}>
+                <div
+                  style={{
+                    paddingRight: "15px",
+                    paddingLeft: "15px",
+                    lineHeight: "1.55em"
+                  }}
+                >
+                  <p>
+                    <span>Jessie Van</span>
+                  </p>
+                  <p>
+                    <span>Product Designer</span>
+                  </p>
                 </div>
               </Column>
             </Row>
           </div>
         </div>
-
       </div>
     ); // eslint-disable-line
   }

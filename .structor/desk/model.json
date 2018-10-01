@@ -386,18 +386,164 @@
                           },
                           "children": [
                             {
-                              "type": "span",
+                              "type": "p",
                               "variant": "default",
                               "props": {},
-                              "children": [],
-                              "text": "Jessie Van"
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Jessie Van"
+                                }
+                              ]
                             },
                             {
-                              "type": "span",
+                              "type": "p",
                               "variant": "default",
                               "props": {},
-                              "children": [],
-                              "text": "Product Designer"
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Product Designer"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "mCol": 12
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "paddingRight": "15px",
+                              "paddingLeft": "15px",
+                              "lineHeight": "1.55em"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Oakland, California"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "94609"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "mCol": 12
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "paddingRight": "15px",
+                              "paddingLeft": "15px",
+                              "lineHeight": "1.55em"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "415 425 7633"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "jessievan@me.com"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "mCol": 12
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "paddingRight": "15px",
+                              "paddingLeft": "15px",
+                              "lineHeight": "1.55em"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Jessie Van"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Product Designer"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -422,7 +568,7 @@
       "pagePath": "/work",
       "children": [
         {
-          "type": "header",
+          "type": "div",
           "variant": "default",
           "props": {
             "style": {
@@ -432,102 +578,108 @@
           },
           "children": [
             {
-              "type": "Row",
+              "type": "div",
               "variant": "default",
-              "children": [
-                {
-                  "type": "Column",
-                  "variant": "default",
-                  "children": [],
-                  "namespace": "Layout",
-                  "props": {
-                    "col": 6,
-                    "mCol": 6
-                  }
-                },
-                {
-                  "type": "Column",
-                  "variant": "default",
-                  "children": [
-                    {
-                      "type": "span",
-                      "variant": "default",
-                      "props": {},
-                      "children": [],
-                      "text": "Work"
-                    },
-                    {
-                      "type": "Frame",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "Hover",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "Animate",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "span",
-                                  "variant": "default",
-                                  "props": {},
-                                  "children": [],
-                                  "text": "Animate me"
-                                }
-                              ],
-                              "namespace": "Animation",
-                              "props": {
-                                "to": {
-                                  "color": "pink"
-                                },
-                                "style": {
-                                  "textAlign": "center"
-                                },
-                                "color": "pink",
-                                "hover": {}
-                              }
-                            }
-                          ],
-                          "namespace": "Animation",
-                          "props": {
-                            "to": {
-                              "color": "pink"
-                            },
-                            "color": "pink",
-                            "transition": {
-                              "target": "all"
-                            }
-                          }
-                        }
-                      ],
-                      "namespace": "Animation",
-                      "props": {}
-                    },
-                    {
-                      "type": "span",
-                      "variant": "default",
-                      "props": {},
-                      "children": [],
-                      "text": "About"
-                    }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "col": 6,
-                    "mCol": 6
-                  }
-                }
-              ],
-              "namespace": "Layout",
               "props": {
                 "style": {
                   "paddingLeft": "30px",
-                  "paddingRight": "30px",
-                  "marginLeft": "auto",
-                  "marginRight": "auto"
+                  "paddingRight": "30px"
                 }
-              }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "img",
+                          "variant": "default",
+                          "props": {
+                            "src": "http://www.jessievan.com/images/logo.png",
+                            "style": {
+                              "paddingLeft": "15px",
+                              "width": "50px"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6,
+                        "mCol": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "paddingLeft": "15px",
+                              "paddingRight": "15px",
+                              "fontFamily": "Work Sans",
+                              "top": "50%",
+                              "position": "absolute",
+                              "transform": "translateY(-50%)"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "marginRight": "14%",
+                                  "height": "100%"
+                                }
+                              },
+                              "children": [],
+                              "text": "Work"
+                            },
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "marginRight": "14%"
+                                }
+                              },
+                              "children": [],
+                              "text": "About"
+                            },
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "marginRight": "14%"
+                                }
+                              },
+                              "children": [],
+                              "text": "Resume"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6,
+                        "mCol": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {}
+                }
+              ]
             }
           ]
         },
@@ -537,7 +689,7 @@
           "props": {
             "style": {
               "paddingTop": "150px",
-              "paddingBottom": "400px",
+              "paddingBottom": "100px",
               "marginBottom": "50px"
             }
           },
@@ -562,7 +714,7 @@
                   "props": {
                     "style": {
                       "display": "inline-block",
-                      "position": "relative"
+                      "textAlign": "center"
                     }
                   },
                   "children": [
@@ -574,30 +726,11 @@
                           "fontSize": "10.15vw",
                           "fontWeight": 400,
                           "color": "#1106FF",
-                          "display": "block",
-                          "transform": "translateX(-50%)",
-                          "left": "50%",
-                          "position": "absolute"
+                          "display": "block"
                         }
                       },
                       "children": [],
                       "text": "I enjoy figuring out how to make things work better."
-                    },
-                    {
-                      "type": "span",
-                      "variant": "default",
-                      "props": {
-                        "style": {
-                          "fontSize": "10.15vw",
-                          "fontWeight": 400,
-                          "color": "#1106FF",
-                          "display": "block",
-                          "position": "relative",
-                          "left": "50%"
-                        }
-                      },
-                      "children": [],
-                      "text": "make things work better."
                     }
                   ]
                 }
@@ -718,6 +851,226 @@
             }
           ],
           "namespace": "Layout"
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingTop": "150px",
+              "paddingBottom": "150px",
+              "color": "#fff",
+              "backgroundColor": "#1106ff",
+              "fontSize": "15px"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "paddingRight": "30px",
+                  "paddingLeft": "30px",
+                  "maxWidth": "1440px",
+                  "fontFamily": "Work Sans"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "paddingRight": "15px",
+                              "paddingLeft": "15px",
+                              "lineHeight": "1.55em"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Jessie Van"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Product Designer"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "mCol": 12
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "paddingRight": "15px",
+                              "paddingLeft": "15px",
+                              "lineHeight": "1.55em"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Oakland, California"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "94609"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "mCol": 12
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "paddingRight": "15px",
+                              "paddingLeft": "15px",
+                              "lineHeight": "1.55em"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "415 425 7633"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "jessievan@me.com"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "mCol": 12
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "paddingRight": "15px",
+                              "paddingLeft": "15px",
+                              "lineHeight": "1.55em"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Jessie Van"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "p",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Product Designer"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "mCol": 12
+                      }
+                    }
+                  ],
+                  "namespace": "Layout"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
