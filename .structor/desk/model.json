@@ -418,28 +418,306 @@
       ]
     },
     {
-      "pageName": "Page6",
+      "pageName": "page6",
       "pagePath": "/work",
       "children": [
         {
-          "type": "div",
+          "type": "header",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingTop": "65px",
+              "paddingBottom": "65px"
+            }
+          },
           "children": [
             {
-              "type": "h3",
+              "type": "Row",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 6,
+                    "mCol": 6
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {},
+                      "children": [],
+                      "text": "Work"
+                    },
+                    {
+                      "type": "Frame",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "Hover",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "Animate",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {},
+                                  "children": [],
+                                  "text": "Animate me"
+                                }
+                              ],
+                              "namespace": "Animation",
+                              "props": {
+                                "to": {
+                                  "color": "pink"
+                                },
+                                "style": {
+                                  "textAlign": "center"
+                                },
+                                "color": "pink",
+                                "hover": {}
+                              }
+                            }
+                          ],
+                          "namespace": "Animation",
+                          "props": {
+                            "to": {
+                              "color": "pink"
+                            },
+                            "color": "pink",
+                            "transition": {
+                              "target": "all"
+                            }
+                          }
+                        }
+                      ],
+                      "namespace": "Animation",
+                      "props": {}
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {},
+                      "children": [],
+                      "text": "About"
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 6,
+                    "mCol": 6
+                  }
+                }
+              ],
+              "namespace": "Layout",
               "props": {
                 "style": {
-                  "textAlign": "center",
-                  "padding": "15px"
+                  "paddingLeft": "30px",
+                  "paddingRight": "30px",
+                  "marginLeft": "auto",
+                  "marginRight": "auto"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingTop": "150px",
+              "paddingBottom": "400px",
+              "marginBottom": "50px"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "100px",
+                  "paddingRight": "30px",
+                  "paddingLeft": "30px",
+                  "marginLeft": "0px",
+                  "marginRight": "auto",
+                  "display": "block"
                 }
               },
               "children": [
                 {
-                  "type": "span",
-                  "text": "work page"
+                  "type": "p",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "inline-block",
+                      "position": "relative"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "10.15vw",
+                          "fontWeight": 400,
+                          "color": "#1106FF",
+                          "display": "block",
+                          "transform": "translateX(-50%)",
+                          "left": "50%",
+                          "position": "absolute"
+                        }
+                      },
+                      "children": [],
+                      "text": "I enjoy figuring out how to make things work better."
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "10.15vw",
+                          "fontWeight": 400,
+                          "color": "#1106FF",
+                          "display": "block",
+                          "position": "relative",
+                          "left": "50%"
+                        }
+                      },
+                      "children": [],
+                      "text": "make things work better."
+                    }
+                  ]
                 }
               ]
             }
           ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingRight": "30px",
+              "paddingLeft": "30px"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginTop": "20px",
+                  "marginLeft": "-15px",
+                  "marginRight": "-15px"
+                }
+              },
+              "children": [
+                {
+                  "type": "p",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "paddingLeft": "15px",
+                      "paddingRight": "15px",
+                      "color": "#1106FF"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "I care about the details and consider the motion design of affordances to be crucial in creating effective, intuitive interfaces. I consider prototyping to be my weapon of choice in thinking through interaction models and new possibilities.",
+                      "props": {
+                        "style": {
+                          "marginBottom": "10px",
+                          "fontSize": "21px",
+                          "fontWeight": 300,
+                          "display": "block"
+                        }
+                      }
+                    },
+                    {
+                      "type": "span",
+                      "text": "I thrive on learning new things — I enjoy exploring new paths to familiar places. I really love snowboarding (I like both park and powder days). I also really enjoy exploring the amazing trails and landscapes around the bay area on my mountain bike. I’ve travelled a lot and enjoy seeing things from a fresh perspective :)",
+                      "props": {
+                        "style": {
+                          "marginBottom": "10px",
+                          "fontSize": "21px",
+                          "fontWeight": 300,
+                          "display": "block",
+                          "paddingTop": "8px"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Row",
+          "variant": "default",
+          "children": [
+            {
+              "type": "Column",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://www.jessievan.com/images/about/photo-1.png",
+                    "style": {
+                      "width": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ],
+              "namespace": "Layout",
+              "props": {
+                "col": 6,
+                "mCol": 6
+              }
+            },
+            {
+              "type": "Column",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://www.jessievan.com/images/about/photo-3.png",
+                    "style": {
+                      "width": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ],
+              "namespace": "Layout",
+              "props": {
+                "col": 6,
+                "mCol": 6
+              }
+            }
+          ],
+          "namespace": "Layout"
         }
       ]
     }
