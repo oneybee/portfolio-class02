@@ -6,6 +6,8 @@
 
 import React, { Component } from "react";
 
+import { Row, Column } from "modules/Layout";
+
 class HomePage extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
@@ -13,26 +15,172 @@ class HomePage extends Component {
     return (
       <div>
 
-        <div style={{ color: "#6b6161" }}>
+        <div style={{ paddingTop: "65px", paddingBottom: "65px" }}>
+          <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>
+            <Row>
+              <Column col={6} mCol={6}>
+                <img
+                  src="http://www.jessievan.com/images/logo.png"
+                  style={{ paddingLeft: "15px", width: "50px" }}
+                />
+              </Column>
+              <Column col={6} mCol={6}>
+                <div
+                  style={{
+                    paddingLeft: "15px",
+                    paddingRight: "15px",
+                    fontFamily: "Work Sans",
+                    top: "50%",
+                    position: "absolute",
+                    transform: "translateY(-50%)"
+                  }}
+                >
+                  <span style={{ marginRight: "14%", height: "100%" }}>
+                    Work
+                  </span>
+                  <span style={{ marginRight: "14%" }}>About</span>
+                  <span style={{ marginRight: "14%" }}>Resume</span>
+                </div>
+              </Column>
+            </Row>
+          </div>
+        </div>
+
+        <div
+          style={{
+            marginBottom: "100px",
+            paddingRight: "30px",
+            paddingLeft: "30px"
+          }}
+        >
           <div
             style={{
-              height: "100px",
-              backgroundColor: "#fcecd7",
-              borderRadius: "4px",
-              textAlign: "center",
-              paddingTop: "40px",
-              paddingBottom: "40px"
+              paddingRight: "15px",
+              paddingLeft: "15px",
+              marginTop: "100px",
+              marginBottom: "100px",
+              textAlign: "center"
             }}
           >
             <span
               style={{
-                lineHeight: "20px",
-                backgroundColor: "#b8e986",
-                color: "#4a90e2"
+                fontFamily: "Lora",
+                fontSize: "4.75vw",
+                color: "#1106FF",
+                display: "block",
+                lineHeight: "1.175em"
               }}
             >
-              Hello Colorful World 🖍🖍
+              Jessie Van
             </span>
+            <span
+              style={{
+                display: "block",
+                lineHeight: "1.35em",
+                fontFamily: "Work Sans",
+                fontWeight: 300,
+                color: "#c5c5c5",
+                fontSize: "19px"
+              }}
+            >
+              Hi! I'm a Product Designer based in Oakland, California.
+            </span>
+          </div>
+        </div>
+
+        <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>
+          <Row>
+            <Column col={6} mCol={12}>
+              <div
+                style={{
+                  paddingLeft: "15px",
+                  paddingRight: "15px",
+                  marginBottom: "30px"
+                }}
+              >
+                <img
+                  src="http://www.jessievan.com/images/grid-projects/MBTV.png"
+                  style={{ width: "100%" }}
+                />
+              </div>
+            </Column>
+            <Column col={6} mCol={12}>
+              <div
+                style={{
+                  paddingLeft: "15px",
+                  paddingRight: "15px",
+                  marginBottom: "30px"
+                }}
+              >
+                <img
+                  src="http://www.jessievan.com/images/grid-projects/Coleman@2x.png"
+                  style={{ width: "100%" }}
+                />
+              </div>
+            </Column>
+            <Column col={6} mCol={12}>
+              <div
+                style={{
+                  paddingLeft: "15px",
+                  paddingRight: "15px",
+                  marginBottom: "30px"
+                }}
+              >
+                <img
+                  src="http://www.jessievan.com/images/grid-projects/Razorfish-App.png"
+                  style={{ width: "100%" }}
+                />
+              </div>
+            </Column>
+            <Column col={6} mCol={12}>
+              <div
+                style={{
+                  paddingLeft: "15px",
+                  paddingRight: "15px",
+                  marginBottom: "30px",
+                  top: "-40%",
+                  position: "absolute"
+                }}
+              >
+                <img
+                  src="http://www.jessievan.com/images/grid-projects/IOT-Window@2x.png"
+                  style={{ width: "100%" }}
+                />
+              </div>
+            </Column>
+          </Row>
+        </div>
+
+        <div
+          style={{
+            paddingTop: "150px",
+            paddingBottom: "150px",
+            color: "#fff",
+            backgroundColor: "#1106ff",
+            fontSize: "15px"
+          }}
+        >
+          <div
+            style={{
+              paddingRight: "30px",
+              paddingLeft: "30px",
+              maxWidth: "1440px",
+              fontFamily: "Work Sans"
+            }}
+          >
+            <Row>
+              <Column col={3} mCol={12}>
+                <div
+                  style={{
+                    paddingRight: "15px",
+                    paddingLeft: "15px",
+                    lineHeight: "1.55em"
+                  }}
+                >
+                  <span>Jessie Van</span><span>Product Designer</span>
+                </div>
+              </Column>
+            </Row>
           </div>
         </div>
 
