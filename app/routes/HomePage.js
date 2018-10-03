@@ -8,9 +8,6 @@ import React, { Component } from "react";
 
 import { Row, Column } from "modules/Layout";
 
-import { wem, wem2 } from "ruucm-blocks/tools/mixins";
-import { isMobile } from "ruucm-blocks/tools/media";
-
 class HomePage extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
@@ -34,13 +31,25 @@ class HomePage extends Component {
                     fontFamily: "Work Sans",
                     top: "50%",
                     position: "absolute",
-                    transform: "translateY(-50%)"
+                    transform: "translateY(-50%)",
+                    color: "#B8B8B8"
                   }}
                 >
-                  <span style={{ marginRight: "14%", height: "100%" }}>
+                  <span
+                    style={{
+                      marginRight: "14%",
+                      height: "100%",
+                      color: "#1106ff"
+                    }}
+                  >
                     Work
                   </span>
-                  <span style={{ marginRight: "14%" }}>About</span>
+                  <a
+                    href="work"
+                    style={{ textDecoration: "none", color: "#B8B8B8" }}
+                  >
+                    <span style={{ marginRight: "14%" }}>About</span>
+                  </a>
                   <span style={{ marginRight: "14%" }}>Resume</span>
                 </div>
               </Column>

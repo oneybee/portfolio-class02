@@ -71,23 +71,35 @@
                           },
                           "children": [
                             {
-                              "type": "span",
+                              "type": "a",
                               "variant": "default",
                               "props": {
+                                "href": "home",
                                 "style": {
-                                  "marginRight": "14%",
-                                  "height": "100%",
-                                  "color": "#1106ff"
+                                  "color": "#1106ff",
+                                  "textDecoration": "none"
                                 }
                               },
-                              "children": [],
-                              "text": "Work"
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "marginRight": "14%",
+                                      "height": "100%"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Work"
+                                }
+                              ]
                             },
                             {
                               "type": "a",
                               "variant": "default",
                               "props": {
-                                "href": "work",
+                                "href": "about",
                                 "style": {
                                   "textDecoration": "none",
                                   "color": "#B8B8B8"
@@ -324,9 +336,7 @@
                         "style": {
                           "paddingLeft": "15px",
                           "paddingRight": "15px",
-                          "marginBottom": "30px",
-                          "top": "-40%",
-                          "position": "absolute"
+                          "marginBottom": "30px"
                         }
                       },
                       "children": [
@@ -579,8 +589,8 @@
       ]
     },
     {
-      "pageName": "page6",
-      "pagePath": "/work",
+      "pageName": "Page114",
+      "pagePath": "/about",
       "children": [
         {
           "type": "div",
